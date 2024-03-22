@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    background-color: #333;
+}
+
+h1, h2 {
+    color: white;
+    margin-bottom: 25px;
+}
+main {
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #b91010;
+    padding: 25px;
+    border-radius: 15px;
+    width: 50%;
+    height:75%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+
+form input {
+    height: 50px;
+    border-radius: 15px;
+    background-color: #333;
+    border-color: blue;
+    margin: 10px;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+
+li {
+    list-style: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    border: none; /* Remove a borda */
+}
+
+input[type="text"] {
+    border: none; /* Remove a borda */
+}
+
+button, .botoes {
+    height: 50px;
+    border-radius: 15px;
+    background-color: #333;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: greenyellow;
+}
+
+aside {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    border-left: 5px solid #252527;
+    overflow-y: auto;
+}
+
+h2 {
+    margin-top: 1px;
+    font-size: 38px;
+}
+
+.mercadorias {
+    background-color: #b91010;
+    color: white;
+    font-weight: bolder;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.botoes {
+    height: 50px;
+    font-size: 20px;
+    width: 100%;
+}
+
+#atualizarBtn, #deletarBtn {
+    margin-top: 10px;
+}
+
+#atualizarBtn:hover{
+    background-color: blue;
+}
+
+#deletarBtn:hover{
+    background-color: red;
+}
+
+h2, h1, .balance {
+    background-color: #39353b;
+    border-radius: 15px;
+    margin-top: 2rem;
+    padding: 10px;
+}
+
+#available{
+    display: inline-block;
+}

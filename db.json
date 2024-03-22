@@ -1,0 +1,32 @@
+{
+  "mercadorias": [
+    {
+      "name": "Arroz",
+      "description": "Tipo 1",
+      "value": 25,
+      "available": "Não",
+      "id": "bb09"
+    },
+    {
+      "id": "6b08",
+      "name": "Feijão",
+      "description": "Feijão Carioca",
+      "value": 12,
+      "available": "Sim"
+    },
+    {
+      "id": "094b",
+      "name": "Café",
+      "description": "Café em grãos maratá",
+      "value": 5,
+      "available": "Não"
+    },
+    {
+      "id": "9bdb",
+      "name": "Shampoo",
+      "description": "Shampoo para careca",
+      "value": 0,
+      "available": "Não"
+    }
+  ]
+}

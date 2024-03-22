@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de mercadorias</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Cadastro de mercadorias:</h1>
+        <input type="hidden" name="id" id="id">
+        <form action="http://localhost:3000/mercadorias" method="post">
+            <label for="name">Nome do Produto:</label>
+            <input type="text" name="name" id="name" required>
+            <label for="descricao">Descrição do produto:</label>
+            <input type="text" name="descricao" id="descricao" required>
+            <label for="value">Insira o valor:</label>
+            <input type="number" name="value" id="value" step="0.01" required>
+            <label>Produto disponivel?</label>
+            <div id="available">
+                <input type="radio" name="opcao" id="opcaoSim" value="Sim">
+                <label for="opcaoSim">Sim</label>
+                <input type="radio" name="opcao" id="opcaoNao" value="Não">
+                <label for="opcaoNao">Não</label>
+            </div>
+            <button>Adicionar</button>
+        </form>
+    </main>
+    <aside>
+        <!-- <h2 class="balance">Saldo: <span id="balance"></span></h2> -->
+        <h2>Mercadorias:</h2>
+        <article id="mercadoriasAll"></article>
+    </aside>
+</body>
+</html>
